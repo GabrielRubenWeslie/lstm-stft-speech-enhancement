@@ -11,11 +11,11 @@
 │   ├── PPT.pdf
 │   ├── Poster.pdf
 │   ├── Paper.pdf
-│   └── Video_Link.txt    <-- (Link video demo ada di dalam sini)
+│   └── Video_Link.txt 
 │
 ├── src/
-│   ├── 1_Training_Pipeline.ipynb
-│   └── 2_Inference_and_Demo.ipynb
+│   ├── 1_Training_Pipeline.PY
+│   └── 2_Inference_and_Demo.PY
 │
 └── README.md
 ```
