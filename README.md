@@ -8,10 +8,10 @@
 ```text
 .
 ├── docs/
-│   ├── PPT.pdf
-│   ├── Poster.pdf
-│   ├── Paper.pdf
-│   └── Video_Link.txt 
+│   ├── PPT UAS Machine Learning.pdf
+│   ├── Poster UAS Machine Learning.pdf
+│   ├── Paper UAS Machine Learning.pdf
+│   └── Link Video.txt 
 │
 ├── src/
 │   ├── 1_Training_Pipeline.PY
