@@ -21,7 +21,7 @@
 ```
 
 ## Project Description
-This project aims to enhance the quality of speech signals degraded by background noise (e.g., traffic, cafe noise). By implementing a hybrid pipeline that combines **Digital Signal Processing (STFT)** with **Deep Learning (LSTM)**, the system effectively separates human speech from environmental interference.
+This project aims to enhance the quality of speech signals degraded by background noise (e.g., traffic, cafe noise). By implementing a hybrid pipeline that combines **Digital Signal Processing (STFT)** with **Recurrent Neural Networks  (LSTM)**, the system effectively separates human speech from environmental interference.
 
 ### Key Methodology:
 1.  **Pre-processing:** Audio is downsampled to **16 kHz** and transformed into the frequency domain using **Short-Time Fourier Transform (STFT)**.
