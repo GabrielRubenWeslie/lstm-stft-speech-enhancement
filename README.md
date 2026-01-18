@@ -4,9 +4,7 @@
 
 ---
 
-## 📂 Project Structure
-
-```text
+## Project Structure
 .
 ├── documentation/
 │   ├── PPT.pdf
@@ -20,7 +18,7 @@
 │
 └── README.md
 
-## 📖 Project Description
+## Project Description
 This project aims to enhance the quality of speech signals degraded by background noise (e.g., traffic, cafe noise). By implementing a hybrid pipeline that combines **Digital Signal Processing (STFT)** with **Deep Learning (LSTM)**, the system effectively separates human speech from environmental interference.
 
 ### Key Methodology:
@@ -32,7 +30,7 @@ This project aims to enhance the quality of speech signals degraded by backgroun
 
 ---
 
-## 📈 Experimental Results
+## Experimental Results
 
 Despite the challenges of non-stationary noise, the model achieved significant improvement in speech intelligibility.
 
@@ -45,7 +43,7 @@ Despite the challenges of non-stationary noise, the model achieved significant i
 
 ---
 
-## 💻 How to Run the Code
+## How to Run the Code
 
 The source code is organized into two sequential notebooks located in the `source_code/` folder:
 
@@ -65,8 +63,9 @@ Run this notebook to evaluate the model or try the **Real-time Demo**.
 
 ---
 
-## 👥 Team Members
+## Team Members
 **BINUS ASO School of Engineering**
+**Automotive and Robotics Engineering**
 
 * **Gabriel Ruben Weslie** - gabriel.weslie@binus.ac.id
 * **Jordan Elishua Wibowo** - jordan.wibowo001@binus.ac.id
