@@ -4,18 +4,21 @@
 
 ---
 
-## 📁 Project Deliverables (Quick Links)
-Silakan akses seluruh kelengkapan tugas akhir melalui link berikut:
+## 📂 Project Structure
 
-| Item | Description | Link / Location |
-| :--- | :--- | :--- |
-| **📄 Final Paper** | Laporan lengkap (IEEE Format) | [View Paper](documentation/Paper.pdf) |
-| **🖼️ Project Poster** | Ringkasan visual proyek | [View Poster](documentation/Poster.pdf) |
-| **📊 Presentation** | Slide presentasi (PPT) | [View Slides](documentation/PPT.pdf) |
-| **🎥 Demo Video** | Simulasi real-time noise reduction | [🎬 **Watch on Google Drive**](PASTE_LINK_GOOGLE_DRIVE_DISINI) |
-| **💻 Source Code** | Notebook Training & Testing | [Go to /src](source_code/) |
-
----
+```text
+.
+├── documentation/
+│   ├── PPT.pdf
+│   ├── Poster.pdf
+│   ├── Paper.pdf
+│   └── Video_Link.txt    <-- (Link video demo ada di dalam sini)
+│
+├── source_code/
+│   ├── 1_Training_Pipeline.ipynb
+│   └── 2_Inference_and_Demo.ipynb
+│
+└── README.md
 
 ## 📖 Project Description
 This project aims to enhance the quality of speech signals degraded by background noise (e.g., traffic, cafe noise). By implementing a hybrid pipeline that combines **Digital Signal Processing (STFT)** with **Deep Learning (LSTM)**, the system effectively separates human speech from environmental interference.
