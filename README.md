@@ -7,13 +7,13 @@
 ## Project Structure
 ```text
 .
-├── documentation/
+├── docs/
 │   ├── PPT.pdf
 │   ├── Poster.pdf
 │   ├── Paper.pdf
 │   └── Video_Link.txt    <-- (Link video demo ada di dalam sini)
 │
-├── source_code/
+├── src/
 │   ├── 1_Training_Pipeline.ipynb
 │   └── 2_Inference_and_Demo.ipynb
 │
@@ -40,7 +40,7 @@ Despite the challenges of non-stationary noise, the model achieved significant i
 | :--- | :--- | :--- | :--- |
 | **Average SNR** | 8.51 dB | **14.83 dB** | **+6.32 dB** |
 
-> **📝 Note on SNR Results:**
+> **Note on SNR Results:**
 > The final SNR of 14.83 dB represents a substantial gain (+6.32 dB) from heavily degraded inputs. The absolute value is constrained by the **16 kHz downsampling** (limiting high-frequency resolution) and the use of **Noisy Phase** for reconstruction. However, auditory analysis confirms that background noise is effectively suppressed while speech formants are preserved.
 
 ---
