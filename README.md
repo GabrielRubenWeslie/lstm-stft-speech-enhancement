@@ -5,6 +5,7 @@
 ---
 
 ## Project Structure
+```text
 .
 ├── documentation/
 │   ├── PPT.pdf
@@ -17,6 +18,7 @@
 │   └── 2_Inference_and_Demo.ipynb
 │
 └── README.md
+```
 
 ## Project Description
 This project aims to enhance the quality of speech signals degraded by background noise (e.g., traffic, cafe noise). By implementing a hybrid pipeline that combines **Digital Signal Processing (STFT)** with **Deep Learning (LSTM)**, the system effectively separates human speech from environmental interference.
